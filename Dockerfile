@@ -19,10 +19,10 @@ RUN . "$SH" && \
     nvm use node
 
 # Install PNPM globally
-RUN npm install -g pnpm
+RUN . "$SH" && npm install -g pnpm
 
-# Set npm registry to https://npm.test.io
-# RUN npm config set registry https://npm.test.io
+# Set npm registry to https://npm.test.io (replace it with your own npm registry url)
+RUN . "$SH" && npm config set registry https://npm.test.io
 
 # Your application-specific commands go here
 
