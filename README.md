@@ -42,4 +42,4 @@ docker push <username>/<repository_name>
 
 ## Preview the Image
 
-Visit: https://hub.docker.com/repository/docker/<username>/<repository_name>
+Visit: `https://hub.docker.com/repository/docker/<username>/<repository_name>`
