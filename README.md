@@ -8,7 +8,7 @@ Download here: https://docs.docker.com/get-docker/
 
 Register here: https://hub.docker.com
 
-To get your <username> & <password>.
+To get your `username` & `password`.
 
 ## 3. Create a Dockerfile
 
@@ -30,7 +30,7 @@ Pick whatever <repository_name> you like.
 
 ## 6. Log In to Docker Hub
 
-Log in and be prompted to input your <username> & <password>.
+Log in and be prompted to input your `username` & `password`.
 
 ```sh
 docker login
