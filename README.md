@@ -18,6 +18,8 @@ docker build -t <image_name> .
 
 Pick whatever `<image_name>` you like.
 
+After building successfully, test the image by `docker run -it <image_name> /bin/bash`.
+
 ## 5. Tag the Docker Image
 
 ```sh
