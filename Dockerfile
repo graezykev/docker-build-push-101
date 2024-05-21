@@ -21,8 +21,8 @@ RUN . "$SH" && \
 # Install PNPM globally
 RUN . "$SH" && npm install -g pnpm
 
-# Set npm registry to https://npm.test.io (replace it with your own npm registry url)
-RUN . "$SH" && npm config set registry https://npm.test.io
+# Set npm registry to https://npm.test.io (replace it with your own NPM registry url)
+# RUN . "$SH" && npm config set registry https://npm.test.io
 
 # Your application-specific commands go here
 
@@ -31,4 +31,3 @@ WORKDIR /workspace
 
 # Example: Run your application
 CMD ["node", "--verson"]
-CMD ["pnpm", "--verson"]
