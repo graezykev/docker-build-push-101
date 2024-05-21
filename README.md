@@ -16,7 +16,7 @@ Register here: https://hub.docker.com to get your `username` & `password`.
 docker build -t <image_name> .
 ```
 
-Pick whatever <image_name> you like.
+Pick whatever `<image_name>` you like.
 
 ## 5. Tag the Docker Image
 
@@ -24,7 +24,7 @@ Pick whatever <image_name> you like.
 docker tag <image_name> <username>/<repository_name>:latest
 ```
 
-Pick whatever <repository_name> you like.
+Pick whatever `<repository_name>` you like.
 
 ## 6. Log In to Docker Hub
 
