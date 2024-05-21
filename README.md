@@ -1,12 +1,12 @@
 # Build & Push a Docker Image 101
 
-## 1. Install Docker / Docker Desktop
-
-Download here: https://docs.docker.com/get-docker/
-
-## 2. Sign Up to Docker Hub
+## 1. Sign Up to Docker Hub
 
 Register here: https://hub.docker.com to get your `username` & `password`.
+
+## 2. Install Docker / Docker Desktop
+
+Download here: https://docs.docker.com/get-docker/
 
 ## 3. Create a Dockerfile
 
