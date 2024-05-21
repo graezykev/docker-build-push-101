@@ -10,6 +10,8 @@ Download here: https://docs.docker.com/get-docker/
 
 ## 3. Create a Dockerfile
 
+Or just copy [this one](./Dockerfile).
+
 ## 4. Build the Docker Image
 
 ```sh
