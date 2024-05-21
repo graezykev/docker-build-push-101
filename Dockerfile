@@ -26,8 +26,5 @@ RUN . "$SH" && npm install -g pnpm
 
 # Your application-specific commands go here
 
-# Set the working directory
-WORKDIR /workspace
-
 # Example: Run your application
 CMD ["node", "--verson"]
