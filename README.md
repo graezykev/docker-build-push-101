@@ -22,6 +22,8 @@ Or just copy [this one](./Dockerfile).
 
 ## 5. Build the Docker Image
 
+`cd` to the directory where the `Dockerfile` exists.
+
 ```sh
 docker build -t <image_name> .
 ```
