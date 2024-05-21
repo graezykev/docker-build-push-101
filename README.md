@@ -44,6 +44,14 @@ Pick whatever `<repository_name>` you like.
 docker push <username>/<repository_name>:latest
 ```
 
-## 8. Preview the Image
+## 8. Verify the Image
 
-Visit: `https://hub.docker.com/repository/docker/<username>/<repository_name>`
+- Visit: `https://hub.docker.com/repository/docker/<username>/<repository_name>`
+
+- Use it in `devcontainer.json`
+
+  ```json
+    "build": {
+      "image": "docker.io/<username>/<repository_name>:latest"
+    },
+  ```
