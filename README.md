@@ -51,7 +51,9 @@ docker push <username>/<repository_name>:latest
 - Use it in `devcontainer.json`
 
   ```json
-    "build": {
-      "image": "docker.io/<username>/<repository_name>:latest"
-    },
+  {
+    "name": "XXX",
+    "image": "docker.io/<username>/<repository_name>:latest"
+    "customizations": {}
+  }
   ```
