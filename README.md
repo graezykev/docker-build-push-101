@@ -4,23 +4,11 @@
 
 Download here: https://docs.docker.com/get-docker/
 
-## 2. Sign Up to Docker Hub
-
-Register here: https://hub.docker.com to get your `username` & `password`.
-
-## 3. Log In to Docker Hub
-
-Log in and be prompted to input your `username` & `password`.
-
-```sh
-docker login
-```
-
-## 4. Create a Dockerfile
+## 2. Create a Dockerfile
 
 Or just copy [this one](./Dockerfile).
 
-## 5. Build the Docker Image
+## 3. Build the Docker Image
 
 `cd` to the directory where the `Dockerfile` exists.
 
@@ -31,6 +19,18 @@ docker build -t <image_name> .
 Pick whatever `<image_name>` you like.
 
 After building successfully, test the image by `docker run -it <image_name> /bin/bash`.
+
+## 4. Sign Up to Docker Hub
+
+Register here: https://hub.docker.com to get your `username` & `password`.
+
+## 5. Log In to Docker Hub
+
+Log in and be prompted to input your `username` & `password`.
+
+```sh
+docker login
+```
 
 ## 6. Tag the Docker Image
 
