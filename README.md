@@ -2,7 +2,7 @@
 
 ## 1. Install Docker / Docker Desktop
 
-Download here: https://docs.docker.com/get-docker/
+Download here https://docs.docker.com/get-docker/
 
 ## 2. Create a Dockerfile
 
@@ -22,7 +22,7 @@ After building successfully, test the image by `docker run -it <image_name> /bin
 
 ## 4. Sign Up to Docker Hub
 
-Register here: https://hub.docker.com to get your `username` & `password`.
+Register here https://hub.docker.com to get your `username` & `password`.
 
 ## 5. Log In to Docker Hub
 
